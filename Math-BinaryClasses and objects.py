@@ -98,7 +98,7 @@ Class Method. cls.a =  10
 Class Method. cls.a =  10
 Static method demo
 
-#Many programmers use only instance methods, however class and static methods can help show your intent regarding the class design
+#Many developers use only instance methods, however class and static methods can help show your intent regarding the class design
         
         
  
