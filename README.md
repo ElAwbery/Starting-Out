@@ -40,4 +40,10 @@ The Classes and objects file uses some of the procedures and definitions learned
 - single instances and the self parameter
 - instance, class and static methods
 
-Codeblocks uses a class inheritance demo to practice better presentation of Python code in Github
+Codeblocks uses a class inheritance demo to practice better presentation of Python code in Github. 
+
+The three Math-Binary files complete my Starting Out project. They are the code I wrote for the final game project in Learn Python in One Day. Mostly the code turned out to match the source code for the project, but I have maintained my own (less good) code in places, with notes on mistakes or improvements. 
+
+With the syntax basics for Python intact, I am moving on to the MIT open course [Introduction to Computer Science and Programming in Python.](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) taught by Grimson, Guttag and Bell. I'll document my progress through the course in the nicely iterative MIT: CS & PP Repo. 
+
+
