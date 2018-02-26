@@ -18,8 +18,8 @@ def getUserScore (userName):
     except IOError:
         newScoresWrite=open ('UserScores.txt', 'w')
         print ('We are making you a scores file.')
-        newScouresWrite.close ()                    #ALWAYS RETURN VALUES AFTER CLOSING FILES
-        return '-1'
+        newScouresWrite.close ()                    #ALWAYS RETURN VALUES AFTER CLOSING FILES.The return function terminates execution of 
+        return '-1'                                 #the procedure
 
                         
 
@@ -29,7 +29,7 @@ def updateUserScore (newUser, userName, score):
     
     if newUser:
         f = open ('userScores.txt', 'a')            #outputFile would be a better name for variable
-        f.write (userName + ',' +score + '\n')                   #single letter variables cause problems as you forget what
+        f.write (userName + ',' +score + '\n')      #single letter variables cause problems as you forget what
         f.close ()                                  #they were referring to.
     else:
         temp = open ('userScores.tmp', 'w')
