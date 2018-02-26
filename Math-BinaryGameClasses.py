@@ -52,7 +52,7 @@ class MathGame (Game):
         symbolList = ['','','','','']
         operatorDict = {1:"+", 2:"-", 3:"*", 4:"**"}
 
-        for i in range (self.noOfQuestions):     #for each question until none left
+        for i in range (self.noOfQuestions):            #for each question until none left
             for index in range (0, 5):
                 numberList[index] = randint (1, 9)      #randomly pick an integer, loop this 5 times through numberList
                 
